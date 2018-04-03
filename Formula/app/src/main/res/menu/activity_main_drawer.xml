@@ -5,19 +5,19 @@
         <item
             android:id="@+id/algebra"
             android:icon="@drawable/ic_menu_check_black"
-            android:title="Algebra" />
+            android:title="@string/algebra" />
         <item
             android:id="@+id/geometry"
             android:icon="@drawable/ic_menu_check_black"
-            android:title="Geometry" />
+            android:title="@string/geometry" />
         <item
             android:id="@+id/chemistry"
             android:icon="@drawable/ic_menu_check_black"
-            android:title="Chemistry" />
+            android:title="@string/trigonometriya" />
         <item
             android:id="@+id/physics"
             android:icon="@drawable/ic_menu_check_black"
-            android:title="Physics" />
+            android:title="@string/integral" />
     </group>
 
     <!--<item android:title="Communicate">-->
