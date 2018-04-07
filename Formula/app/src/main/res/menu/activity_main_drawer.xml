@@ -3,6 +3,10 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/homePage"
+            android:icon="@drawable/ic_menu_check_black"
+            android:title="Home page" />
+        <item
             android:id="@+id/algebra"
             android:icon="@drawable/ic_menu_check_black"
             android:title="@string/algebra" />

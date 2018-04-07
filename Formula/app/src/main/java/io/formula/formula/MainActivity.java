@@ -91,9 +91,14 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
+        if(id==R.id.homePage){
+            HomePageFragment homePageFragment = new HomePageFragment();
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            fragmentManager.beginTransaction().replace(R.id.content_layout, homePageFragment).commit();
+        }
+
         if (id == R.id.algebra) {
             // Handle the camera action
-
             AlgebraFragment algebraFragment = new AlgebraFragment();
             FragmentManager fragmentManager = getSupportFragmentManager();
             fragmentManager.beginTransaction().replace(R.id.content_layout, algebraFragment).commit();
