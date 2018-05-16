@@ -11,29 +11,35 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <LinearLayout
+            android:adjustViewBounds="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <ImageView
+                android:adjustViewBounds="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/math1"/>
+                android:src="@drawable/algebra_1"/>
             <ImageView
+                android:adjustViewBounds="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/math2"/>
+                android:src="@drawable/algebra_2"/>
             <ImageView
+                android:adjustViewBounds="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/math3"/>
+                android:src="@drawable/algebra_3"/>
             <ImageView
+                android:adjustViewBounds="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/math4"/>
+                android:src="@drawable/algebra_4"/>
             <ImageView
+                android:adjustViewBounds="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/math5"/>
+                android:src="@drawable/algebra_5"/>
 
         </LinearLayout>
 

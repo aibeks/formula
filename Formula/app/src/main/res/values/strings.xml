@@ -9,7 +9,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Welcome to Algebra!</string>
     <string name="welcome_geometry">Welcome Geometry!</string>
-    <string name="welcome_page">Бул “Математикалык формулалар жыйнагы” тиркемеси мектеп окчууларына жана студенттерге арналган. Колдонуучуларга түшүнүктүү жана ынгайлуу даяр шпаргалка.</string>
+    <string name="welcome_page">Бул “Математикалык формулалар жыйнагы” тиркемеси мектеп окчууларына жана студенттерге арналган. Колдонуучуларга түшүнүктүү  жана ыңгайлуу даяр шпаргалка.</string>
     <string name="algebra">Алгебра</string>
     <string name="geometry">Геометрия</string>
     <string name="trigonometriya">Тригонометрия</string>

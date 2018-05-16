@@ -5,7 +5,7 @@
         <item
             android:id="@+id/homePage"
             android:icon="@drawable/ic_menu_check_black"
-            android:title="Home page" />
+            android:title="Башкы бет" />
         <item
             android:id="@+id/algebra"
             android:icon="@drawable/ic_menu_check_black"
