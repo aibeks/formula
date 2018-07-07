@@ -1,6 +1,5 @@
 package io.formula.formula;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -91,9 +90,14 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
+        if(id==R.id.homePage){
+            HomePageFragment homePageFragment = new HomePageFragment();
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            fragmentManager.beginTransaction().replace(R.id.content_layout, homePageFragment).commit();
+        }
+
         if (id == R.id.algebra) {
             // Handle the camera action
-
             AlgebraFragment algebraFragment = new AlgebraFragment();
             FragmentManager fragmentManager = getSupportFragmentManager();
             fragmentManager.beginTransaction().replace(R.id.content_layout, algebraFragment).commit();
@@ -105,18 +109,31 @@ public class MainActivity extends AppCompatActivity
             fragmentManager.beginTransaction().replace(R.id.content_layout, geometryFragment).commit();
 
 
-        } else if (id == R.id.chemistry) {
+        } else if (id == R.id.trigonometry) {
 
-            ChemistryFragement chemistryFragment = new ChemistryFragement();
+            TrigonometryFragment trigonometryFragment = new TrigonometryFragment();
             FragmentManager fragmentManager = getSupportFragmentManager();
-            fragmentManager.beginTransaction().replace(R.id.content_layout, chemistryFragment).commit();
+            fragmentManager.beginTransaction().replace(R.id.content_layout, trigonometryFragment).commit();
 
-        } else if (id == R.id.physics) {
+        } else if (id == R.id.integral) {
 
-            PhysicsFragment physicsFragment = new PhysicsFragment();
+            IntegralFragment integralFragment = new IntegralFragment();
             FragmentManager fragmentManager = getSupportFragmentManager();
-            fragmentManager.beginTransaction().replace(R.id.content_layout, physicsFragment).commit();
+            fragmentManager.beginTransaction().replace(R.id.content_layout, integralFragment).commit();
+
+        } else if (id == R.id.barabarsyzdyk) {
+
+            BarabarsyzdyktarFragment barabarsyzdyktarFragment = new BarabarsyzdyktarFragment();
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            fragmentManager.beginTransaction().replace(R.id.content_layout, barabarsyzdyktarFragment).commit();
+        } else if (id == R.id.test) {
+
+            TestFragment testFragment = new TestFragment();
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            fragmentManager.beginTransaction().replace(R.id.content_layout, testFragment).commit();
+
         }
+
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

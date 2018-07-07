@@ -7,23 +7,18 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-
 /**
- * A simple {@link Fragment} subclass.
+ * Created by aibeksariev on 5/31/18.
  */
-public class PhysicsFragment extends Fragment {
 
+public class BarabarsyzdyktarFragment extends Fragment {
 
-    public PhysicsFragment() {
-        // Required empty public constructor
-    }
-
+    public BarabarsyzdyktarFragment(){}
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_physics, container, false);
+        return inflater.inflate(R.layout.fragment_barabarsyzdyktar, container, false);
     }
-
 }

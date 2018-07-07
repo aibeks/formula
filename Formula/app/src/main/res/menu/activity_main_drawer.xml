@@ -3,21 +3,35 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/homePage"
+            android:icon="@drawable/ic_menu_check_black"
+            android:title="@string/bashkybet" />
+        <item
             android:id="@+id/algebra"
             android:icon="@drawable/ic_menu_check_black"
-            android:title="Algebra" />
+            android:title="@string/algebra" />
         <item
             android:id="@+id/geometry"
             android:icon="@drawable/ic_menu_check_black"
-            android:title="Geometry" />
+            android:title="@string/geometry" />
         <item
-            android:id="@+id/chemistry"
+            android:id="@+id/trigonometry"
             android:icon="@drawable/ic_menu_check_black"
-            android:title="Chemistry" />
+            android:title="@string/trigonometriya" />
         <item
-            android:id="@+id/physics"
+            android:id="@+id/integral"
             android:icon="@drawable/ic_menu_check_black"
-            android:title="Physics" />
+            android:title="@string/integral" />
+        <item
+            android:id="@+id/barabarsyzdyk"
+            android:icon="@drawable/ic_menu_check_black"
+            android:title="@string/barabarsyzdyk" />
+        <item
+            android:id="@+id/test"
+            android:icon="@drawable/ic_menu_check_black"
+            android:title="@string/test" />
+
+
     </group>
 
     <!--<item android:title="Communicate">-->
