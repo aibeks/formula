@@ -27,47 +27,93 @@
                 android:adjustViewBounds="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/trigonometry_1"/>
+                android:src="@drawable/trigonometry1"/>
             <ImageView
                 android:adjustViewBounds="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/trigonometry_2"/>
+                android:src="@drawable/trigonometry2"/>
             <ImageView
                 android:adjustViewBounds="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/trigonometry_3"/>
+                android:src="@drawable/trigonometry3"/>
             <ImageView
                 android:adjustViewBounds="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/trigonometry_4"/>
+                android:src="@drawable/trigonometry4"/>
             <ImageView
                 android:adjustViewBounds="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/trigonometry_5"/>
+                android:src="@drawable/trigonometry5"/>
             <ImageView
                 android:adjustViewBounds="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/trigonometry_6"/>
+                android:src="@drawable/trigonometry6"/>
             <ImageView
                 android:adjustViewBounds="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/trigonometry_7"/>
+                android:src="@drawable/trigonometry7"/>
             <ImageView
                 android:adjustViewBounds="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/trigonometry_8"/>
+                android:src="@drawable/trigonometry8"/>
             <ImageView
                 android:adjustViewBounds="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/trigonometry_9"/>
+                android:src="@drawable/trigonometry9"/>
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trigonometry10"/>
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trigonometry12"/>
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trigonometry13"/>
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trigonometry14"/>
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trigonometry15"/>
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trigonometry15_16"/>
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trigonometry16"/>
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trigonometry17"/>
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trigonometry8"/>
+
 
         </LinearLayout>
 
